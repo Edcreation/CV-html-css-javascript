@@ -5,3 +5,6 @@ function changeStyle(){
     var element = document.getElementById("bg");
     element.style.color = '#'+ random() + '5';
 }
+window.onload = function() {
+  window.print();
+}
